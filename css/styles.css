@@ -1,0 +1,248 @@
+/* фон хедера #FFFFFF  */
+/* основний фон #F5F5F5 */
+/* темний фон #2F303A */
+/* сірий колір фону #F5F4FA*/
+/* основний колір текстту #757575 */
+/* колір заголовків темніший #212121 */
+/* білий колір #FFFFFF */
+/* акцент #2196F3 */
+
+:root{
+    --color-text:#757575;
+    --color-h:#212121;
+    --white-color-text:#FFFFFF;
+    --accent:#2196F3;
+    --logo-color:#000000
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   color: var(--color-text);
+}
+
+.list{
+    list-style: none;
+}
+
+.section-title{
+    color: var(--color-h);
+        
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/* ----------------------header----------------------- */
+
+/* ----------------------logo----------------------- */
+
+.logo{
+    color:var(--logo-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+
+
+}
+
+.logo-web{
+    color: var(--accent);
+}
+
+/* ---------------------nav----------------------- */
+.nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    text-decoration: none
+}
+
+.nav-item{
+    color: var(--color-h);
+
+}
+
+.nav-item:hover,
+.nav-item:focus{
+    color: var(--accent);
+}
+
+.nav-item--current{
+    color: var(--accent);
+}
+
+.auth-nav-item{
+
+
+}
+
+.auth-nav-item:hover,
+.auth-nav-item:focus{
+    color: var(--accent);
+
+}
+
+/* ----------------------main----------------------- */
+
+/* ---------------------- hero-section----------------------- */
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: var(--white-color-text);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn{
+    color: var(--white-color-text);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+}
+
+/* ----------------------features----------------------- */
+
+.features-title {
+    color: var(--color-h);
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+
+/* ----------------------works----------------------- */
+
+
+
+/* ----------------------workers----------------------- */
+
+
+.workers-name {
+    color: var(--color-h);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.workers-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ----------------------footer----------------------- */
+
+.footer{
+    background-color:#2F303A;
+}
+
+.address {
+    color: var(--white-color-text);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent);
+}
+
+/* ----------------------!!!!Portfolio-Main!!!----------------------- */
+
+/* ----------------------button----------------------- */
+
+.portfolio-btn{
+    color: var(--color-h);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--white-color-text);
+    background-color: var(--accent);
+}
+
+/* ----------------------examples----------------------- */
+
+.portfolio-subtitle {
+    color: var(--color-h);
+
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
