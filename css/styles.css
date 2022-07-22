@@ -256,8 +256,7 @@ color: var(--color-text);
 
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-    color: var(--white-color-text);
-    background-color: var(--accent);
+
 }
 
 /* ----------------------examples----------------------- */
