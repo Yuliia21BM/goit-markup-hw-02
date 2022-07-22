@@ -12,7 +12,10 @@
     --color-h:#212121;
     --white-color-text:#FFFFFF;
     --accent:#2196F3;
-    --logo-color:#000000
+    --logo-color:#000000;
+    --darc-bgc:#2F303A;
+    --second-bgc:#F5F5F5;
+    --third-bgc-color:#F5F4FA;
 }
 
 body{
@@ -104,11 +107,13 @@ color: var(--color-text);
 
 /* ----------------------main----------------------- */
 
+
 /* ---------------------- hero-section----------------------- */
 
 .hero{
-    background-color: #2F303A;
+    background-color:var(--darc-bgc);
 }
+
 
 .hero-title{
     color: var(--white-color-text);
@@ -123,6 +128,7 @@ color: var(--color-text);
 
 .hero-btn{
     color: var(--white-color-text);
+    background-color:var(--accent);
 
     font-family: inherit;
     font-weight: 700;
@@ -136,7 +142,26 @@ color: var(--color-text);
     cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus{
+    color:var(--accent);
+    background-color: var(--white-color-text);
+}
+
+
+
 /* ----------------------features----------------------- */
+
+.second-section {
+    background-color: var(--second-bgc);
+}
+
+
+
+
+{
+    background-color:var(--second-bgc)
+}
 
 .features-title {
     color: var(--color-h);
@@ -160,6 +185,9 @@ color: var(--color-text);
 
 /* ----------------------workers----------------------- */
 
+.workers{
+    background-color: var(--third-bgc-color);
+}
 
 .workers-name {
     color: var(--color-h);
@@ -181,12 +209,13 @@ color: var(--color-text);
 /* ----------------------footer----------------------- */
 
 .footer{
-    background-color:#2F303A;
+    background-color:var(--darc-bgc);
 }
 
 .address {
     color: var(--white-color-text);
 
+    font-style: italic;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -214,7 +243,7 @@ color: var(--color-text);
 .portfolio-btn{
     color: var(--color-h);
 
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
