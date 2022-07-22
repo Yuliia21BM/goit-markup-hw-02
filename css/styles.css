@@ -144,8 +144,6 @@ color: var(--color-text);
 
 .hero-btn:hover,
 .hero-btn:focus{
-    color:var(--accent);
-    background-color: var(--white-color-text);
 }
 
 
